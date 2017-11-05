@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Game of Thrones</title>
+    <!-- add a font -->
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+    <!-- reset CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+     <!-- Font Awesome -->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- My Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	
+	<!-- My game area -->
+	<div class="container-fluid">
+	    <section>
+	    	<!-- fancy exciting title area -->
+			<div class ="row">
+				<div class="col-12" >
+		              <img src="assets/images/excitingGOT.png" class="rounded mx-auto d-block img-fluid" alt="Game GOT Banner">
+		        </div>
+		    </div>
+
+	      	<div class="row">
+		        <!-- consequence/ reward / picture area -->
+		        <div class="col-sm-12 col-md-6" >
+		          <div class="card">
+		            <div class="card-header text-nowrap text-center myHeaderText winLoseText">
+		              Save Ned Stark!
+		            </div>
+		            <div class="card-body">
+		              <img src="assets/images/nedpic1.png" alt="Ned Execution?" class="rounded mx-auto d-block img-fluid nedPic">
+		            </div>
+		          </div>
+		        </div>
+		        <!-- gameplay area -->
+		        <div class="col-sm-12 col-md-6">
+		          <div class="card">
+		            <div class="card-header text-center myHeaderText">
+		              Type any letter to begin:
+		            </div>
+		            <div class="card-body gamePlayArea">
+		            	<!-- sub head instructions -->
+			            <div class="row">
+			                <div class="col-12 myHeaderText text-center">
+			                	Can you save Ned by guessing the word below?
+			                </div>
+			            </div>
+
+			            <!-- win / loss -->
+			            <div class="row">
+			                <div class="col-12 myHeaderText text-center winLoss">
+			                	Wins: 0  Losses: 0
+			                </div>
+			            </div>
+
+			            <!-- curent word -->
+			            <div class="row">
+			                <div class="col-12 myHeaderText text-center">
+			                	Current Word:
+			                </div>
+			            </div>
+			            <div class="row">
+			                <div class="col-12 myHeaderText text-center currentWord">
+			                	____________
+			                </div>
+			            </div>
+
+			            <!-- remaining guesses -->
+			            <div class="row">
+			                <div class="col-12 myHeaderText text-center remainingGuesses">
+			                	You have 7 remaining guesses!
+			                </div>
+			            </div>
+
+			            <!-- already used -->
+			            <div class="row">
+			                <div class="col-12 myHeaderText text-center">
+			                	Already Guessed:
+			                </div>
+			            </div>
+			            <div class="row">
+			                <div class="col-12 myHeaderText text-center alreadyGuessed">
+			                	********
+			                </div>
+			            </div>
+
+
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </section>
+
+			<!-- My footer -->
+		<div class="row">
+	      <div class="col-sm-12 text-center text-white fixed-bottom myfooter">
+	        ©Copyright 2017 Peter Norman
+	      </div>
+	    </div>
+	    
+	  </div>
+</body>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- My game script -->
+	<script src="assets\javascript\game.js"></script>
+</html>
