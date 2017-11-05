@@ -58,6 +58,9 @@ var game =
     {
         if(game.guessed.indexOf(guess) >= 0) //this was guessed before
         {
+            this.thePrompting[0].innerHTML = "You already chose that letter before!";
+            var audio = new Audio('assets/sounds/error.mp3');
+            audio.play();
             return true;
         }
         else
